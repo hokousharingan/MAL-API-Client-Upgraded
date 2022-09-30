@@ -154,4 +154,4 @@ class Client(Anime, Manga, MyList):
         }
         self._api_handler = APICaller(base_url=self._base_url,
                                       headers=self.headers)
-        return
+        return response
